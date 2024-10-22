@@ -1,6 +1,11 @@
 # Get rid of the annoying purple "DisplayLink Manager is recoding your screen" icon in the menu bar on macOS >= 14
 
-This is all thanks to lockieluke: https://github.com/lwouis/alt-tab-macos/issues/2606#issuecomment-2042674340
+This is the issue: https://www.displaylink.org/forum/showthread.php?p=96680  
+It's officially descriped as a "feature": https://support.displaylink.com/knowledgebase/articles/2007602-macos-sonoma-14-screen-sharing-picker-and-stop-sh  
+This fix is all thanks to lockieluke's comment: https://github.com/lwouis/alt-tab-macos/issues/2606#issuecomment-2042674340  
+
+This works, because Terminal (an Apple app) will now launch DisplayLink Manager, instead of DisplayLink Manager itself (a 3rd party app).  
+Apple apps don't show the fucking purple icon, that's why this works.    
 
 1. Create a file at `~/Library/LaunchAgents/local.displayllink.plist` and paste this in:
 
