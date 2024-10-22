@@ -1,0 +1,1 @@
+# DisplayLink_Mac-Stop-Screen-Sharing-Picker
