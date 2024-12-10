@@ -40,5 +40,5 @@ end tell
 ```
 
  4. Run `launchctl load ~/Library/LaunchAgents/local.displaylink.plist` to load the launch agent profile you just created
-5. Logout and log back in, you might see the Terminal flash for a fraction of a second as it's starting AltTab but it should start working in a second
+5. Logout and log back in, you might see the Terminal flash for a fraction of a second as it's starting Displaylink but it should start working in a second
 
