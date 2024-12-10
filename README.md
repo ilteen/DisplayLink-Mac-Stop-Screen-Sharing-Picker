@@ -29,7 +29,7 @@ Apple apps don't show the fucking purple icon, that's why this works.
 ```
 
  2. Make sure you turn off **Launch at login** in DisplayLink Manager
-3. Create a file at `~/.scripts/alttab.scpt` and paste this in:
+3. Create a file at `~/.scripts/displaylink.scpt` and paste this in:
 
 ```applescript
 tell application "Terminal"
