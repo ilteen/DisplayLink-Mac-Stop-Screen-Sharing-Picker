@@ -7,7 +7,7 @@ This fix is all thanks to lockieluke's comment: https://github.com/lwouis/alt-ta
 This works, because Terminal (an Apple app) will now launch DisplayLink Manager, instead of DisplayLink Manager itself (a 3rd party app).  
 Apple apps don't show the fucking purple icon, that's why this works.    
 
-1. Create a file at `~/Library/LaunchAgents/local.displayllink.plist` and paste this in:
+1. Create a file at `~/Library/LaunchAgents/local.displaylink.plist` and paste this in:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
